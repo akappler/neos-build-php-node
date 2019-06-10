@@ -1,4 +1,4 @@
-FROM php:7.22cli-alpine3.9
+FROM php:7.2-cli-alpine3.9
 
 WORKDIR /build
 
