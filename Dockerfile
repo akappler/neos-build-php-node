@@ -19,6 +19,8 @@ ENV APK_PACKAGES \
         libxml2 \
         libxml2-dev
 
+ENV COMPOSER_ALLOW_SUPERUSER 1
+
 RUN apk update && apk upgrade
 
 ## install alpine packages
